@@ -2,7 +2,7 @@
 
 Dashboard to display weather details
 
-If you just want to see it running, visit: <http://test.com>
+If you just want to see it running, visit: <https://weather-app-dashboard.herokuapp.com>
 
 ## Requires
 
