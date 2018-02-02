@@ -8,7 +8,7 @@ angular.module('openWeatherApp.controllers', [])
     $scope.message = '';
     $scope.hasState = '';
     $scope.exampleLocations = exampleLocations;
-    $scope.iconBaseUrl = 'http://openweathermap.org/img/w/';
+    $scope.iconBaseUrl = 'https://openweathermap.org/img/w/';
     $scope.forecast = openWeatherMap.queryForecastDaily({
       location: exampleLocations[ 0 ]
 

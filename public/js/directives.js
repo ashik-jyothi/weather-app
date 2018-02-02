@@ -18,7 +18,7 @@ var app = angular.module('openWeatherApp.directives', [])
         scope.getIconImageUrl = function(iconName) {
           return (
             iconName
-            ? 'http://openweathermap.org/img/w/' + iconName + '.png'
+            ? 'https://openweathermap.org/img/w/' + iconName + '.png'
             : '');
         };
 
