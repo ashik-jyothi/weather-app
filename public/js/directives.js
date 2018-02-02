@@ -32,7 +32,7 @@ var app = angular.module('openWeatherApp.directives', [])
 
 app.directive('ngSparkline', function() {
 
-  var url = "http://api.openweathermap.org/data/2.5/forecast/daily?APPID=" + apiKey + "&mode=json&units=imperial&cnt=7&callback=JSON_CALLBACK&q=";
+  var url = "https://api.openweathermap.org/data/2.5/forecast/daily?APPID=" + apiKey + "&mode=json&units=imperial&cnt=7&callback=JSON_CALLBACK&q=";
   return {
     restrict: 'A',
     require: '^ngCity',
